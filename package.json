@@ -85,9 +85,6 @@
     "walletlink": "^2.1.11",
     "web3-provider-engine": "^15.0.4"
   },
-  "optionalDependencies": {
-    "@myetherwallet/mewconnect-web-client": "^2.2.0-beta.11"
-  },
   "resolutions": {
     "authereum/web3-utils/underscore": "^1.12.1",
     "authereum/ethereum-private-key-to-address/meow/trim-newlines": "^3.0.1",
