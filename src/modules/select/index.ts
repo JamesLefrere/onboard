@@ -18,6 +18,7 @@ const desktopDefaultWalletNames = [
 ]
 
 const mobileDefaultWalletNames = [
+  'tally',
   'metamask',
   'coinbase',
   'trust',
@@ -151,6 +152,8 @@ function getModule(name: string): Promise<{
       return import('./wallets/coinbase')
     case 'walletConnect':
       return import('./wallets/wallet-connect')
+    case 'tally':
+      return import('./wallets/tally')
     case 'opera':
       return import('./wallets/opera')
     case 'operaTouch':

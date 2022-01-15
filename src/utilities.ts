@@ -313,6 +313,10 @@ export function getProviderName(provider: any): string | undefined {
     return 'Frame'
   }
 
+  if (provider.isTally) {
+    return 'Tally'
+  }
+
   if (provider.isMYKEY) {
     return 'MYKEY'
   }
